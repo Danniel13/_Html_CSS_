@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <html lang="es">
+<head>
+
+  <title>Priorizacion Estilos</title>
+<link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1 class="texto-azul texto-coral">Hola Lorencis c:</h1> 
+  <!-- DOS CLASES: SEPARADAS POR UN ESPACIO:  texto-azul texto-morado-->
+  <!-- El orden de las clases no importa en HTML- EN CAMBIO SI IMPORTA EN CSS -->
+
+
+  <a class="sin-subrayado" href="https://www.freecodecamp.org/">Has clic aqui</a> 
+    <!-- Clase sin subrayado para el enlace -->
+
+
+<!-- ID VS CLASE- SE VAN A DEFINIR DOS COLORES DIFERENTES PARA EL MISMO TEXTO ID VS CLASE -->
+  <h2 id="ID-H2" class="CLASS-H2">Priorización ID VS CLASE:</h1> 
+<!-- ID TIENE PRIORIDAD SOBRE CLASE  -->
+
+
+
+
+<!-- PRIORIDAD DE ESTILOS EN LINEA VS CLASES VS ID -->
+
+
+<h3 id="ID-H3" class="CLASS-H3" style="font-size: 25px;" style= "color:darkslategrey"  >Priorización ID VS CLASE:</h3> 
+
+  <!-- Se prioriza el estilo en linea- definido color "darkslategrey" en html -->
+  <!-- PARA FORZAR EL USO DE UN ESTILO PONER !important
+  Ejemplo:
+  #ID-H3
+{
+  color:mediumvioletred !important
+}
+
+.CLASS-H3
+{
+  color:olivedrab
+}
+
+//Predominara el estilo ID sobre el de linea y clase
+-->
+
+
+</body>
+</html>

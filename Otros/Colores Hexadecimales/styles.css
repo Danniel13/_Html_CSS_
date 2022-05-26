@@ -1,0 +1,57 @@
+/* Hexadecimal code en BASE16 */
+/*  16 millones de colores*/
+/* Todos los colores tienen tres componentes
+  #00     00      00-->COLOR NEGRO
+   
+  #FF     FF      FF--->COLOR BLANCO
+   Los valores que se asignen tendran que ver cuando de cada color se va asignar.
+*/
+/* Asignando color de fondo a todos los div */
+div
+{
+  background-color:#bf000041;  /*lOS ULTIMOS DOS DIGITOS SON LA TRANSPARENCIA*/
+}
+h2
+{
+  color:#ff5400
+}
+
+img
+{
+  border-radius: 50%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #eb3248;
+}
+
+
+/* ABREVIAR CODIGOS HEXADECIMALES:
+Se puede abreviar el color si los dos digitos tienen el mismo valor por ehemplo:target
+#ffffff   -> #fff
+#00ff00   -> #0f0
+Se pueden implementar en mayusculas o minusculas.
+
+*/
+
+a
+{
+  color: #0f0;
+
+}
+
+
+/* valores RGB para colores 
+R: RED G: GREEN B: BLUE
+NUMEROS ENTRE 0 Y 255
+0, 255, 255
+=AZUL CELESTE 
+
+*/
+
+h1
+{
+  color: rgba(0, 255, 255, 0.6);
+}
+/* Asignación de colores con RGB 
+   eL CUARTO VALOR HACE REFERENCIA A LA TRANSPARENCIA Y CAMBIA RGB+A: A=ALPHA
+*/

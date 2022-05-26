@@ -1,0 +1,77 @@
+.texto-coral
+{
+  color:coral;
+}
+
+.texto-azul 
+{
+  color: blue;  
+}
+
+
+
+/* La clase predominante que se va aplicar es la ultima */
+
+/* selector de tipo para asignar un estilo a todos los atributos de tipo "a": color darkogreen, ondulado, subrayado */
+a 
+{
+  text-decoration:darkolivegreen wavy underline; 
+}
+
+/* APLICACION DE ESTILO A *SELECTOR DE CLASE*:"sin-sin-subrayado de html, se aplica none para que no tenga subrayado. */
+/* el selector de clase: class="sin-subrayado" Es el predominante!!! */
+.sin-subrayado 
+{
+  text-decoration: none;
+}
+
+/* JERARQUIA ENTRE ID VS CLASE*/
+
+/* DEFINICION DE COLOR PARA ID Y CLASE EN UNA MISMA LINEA EN EL HTML */
+
+/* DEFINICION DE ID: */
+
+#ID-H2
+{
+  color:brown
+}
+
+.CLASS-H2
+{
+  color:mediumseagreen
+}
+
+/*  ID TIENE PRIORIDAD SOBRE CLASE  */
+
+
+
+/* PRIORIDAD DE ESTILOS EN LINEA VS CLASES VS ID */
+
+
+#ID-H3
+{
+  color:mediumvioletred /*!important */
+}
+
+.CLASS-H3
+{
+  color:olivedrab
+}
+
+/* Se prioriza el estilo en linea-definido color "darkslategrey" en html */
+
+
+ /* PARA FORZAR EL USO DE UN ESTILO PONER !important
+Ejemplo:
+#ID-H3
+{
+color:mediumvioletred !important
+}
+
+.CLASS-H3
+{
+color:olivedrab
+}
+
+//Predominara el estilo ID sobre el de linea y clase
+ */
